@@ -119,6 +119,7 @@ header {
   width: 80%;
   display: flex;
   gap: 4rem;
+  justify-content: center;
 
   margin: 0 auto;
   text-align: left;
@@ -228,7 +229,7 @@ header {
 
 .ccts {
   display: flex;
-  width: 80%;
+  width: 100%;
   /* background-color: blue; */
   justify-content: center;
   margin: 0 auto;
@@ -253,6 +254,7 @@ footer {
 
   header{
     height: 80vh;
+    padding-bottom: 2rem;
   }
 
   .head_parent {
@@ -269,6 +271,12 @@ footer {
     padding-bottom: 2rem;
     font-size: larger;
   }
+
+  .drbtn{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  }
   
   .subheads {
     display: block;
@@ -277,8 +285,8 @@ footer {
   }
 
   .mypic {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     background-color: gray;
     margin-top: 1rem;
     padding-bottom: 0rem;
@@ -343,6 +351,13 @@ footer {
     height: 80rem;
   }
 
+  .pci_container{
+    padding-left: 1rem;
+  }
+
+  .cctsub{
+    padding-left: 1rem;
+  }
   .inc_1 {
     width: 20rem;
     height: 4rem;

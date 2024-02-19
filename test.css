@@ -1,7 +1,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color:#cac8c8;
+  background-color:#333;
 }
  
 .topnav a {
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
-    display: none;
+    display: none; /*none*/
   }
   .topnav a.icon {
     float: right;
