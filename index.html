@@ -8,25 +8,45 @@
     <title>Michael Tom</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="icon" href="asset/img/mich.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="test.css" />
   </head>
   <body>
     <header>
       <!-- nav bar -->
-      <nav>
-        <div>
-          <h1 class="michael">Michael</h1>
+
+      <nav class="topnav nav" id="myTopnav">
+        <div class="topnav nav" id="myTopnav">
+
+          <a href="#home" class="active michael">MICHAEL</a>
+          <a href="#home"><li class="am">HOME</li></a>
+          <a href="#about-me"><li class="am">ABOUT ME</li></a>
+          <a href="#projects"><li class="am">PROJECTS</li></a>
+          <a href="#testimonals"><li class="am">TESTIMONIALS</li></a>
+          <a href="#contact"><li class="am">CONTACT</li></a>
+        </div>
+          <div class="bar">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
         </div>
 
-        <div>
-          <ul>
-            <a href="#home"><li class="am">HOME</li></a>
-            <a href="#about-me"><li class="am">ABOUT ME</li></a>
-            <a href="#projects"><li class="am">PROJECTS</li></a>
-            <a href="#testimonals"><li class="am">TESTIMONIALS</li></a>
-            <a href="#contact"><li class="am">CONTACT</li></a>
-          </ul>
-        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
       </nav>
+
       <div class="head_parent" id="home">
         <h1>HI, I AM <br />MICHAEL <br />TOM.</h1>
         <h2 class="second-line">GRAPHIC DESIGNER AND WEB DEVELOPER</h2>
@@ -34,7 +54,7 @@
       </div>
     </header>
 
-    <section class="sections_g" id="about-me">
+    <section class="sections_g abt" id="about-me">
       <h1 class="subhead_txt">ABOUT ME</h1>
       <hr />
       <div class="subheads">
@@ -146,25 +166,25 @@
 
         <div class="cctsub">
           <h2>MICHAEL TOM</h2>
-       
+
           <p>Graphic Designer/Web Developer</p>
           <br />
           <br />
-          
+
           <h3>Phone</h3>
-          
+
           <p>123-4567-890</p>
           <br />
           <br />
-          
+
           <h3>Email</h3>
-          
+
           <p>mic81070@gmail.com</p>
           <br />
           <br />
-         
+
           <h3>website</h3>
-          
+
           <a href="https://michaeltom.vercel.app/">www.michael.com</a>
         </div>
       </div>
@@ -173,7 +193,9 @@
     <aside></aside>
     <footer>
       <h2>&lt;&lt;&lt; &copy; MICHAEL TOM &gt;&gt;&gt;</h2>
-      <p class="lp">&copy; Copyright Michael Tom. Design And Developed By Michael</p>
+      <p class="lp">
+        &copy; Copyright Michael Tom. Design And Developed By Michael
+      </p>
     </footer>
   </body>
 </html>

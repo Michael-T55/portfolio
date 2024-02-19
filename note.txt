@@ -1,0 +1,19 @@
+ <div>
+          <ul>
+            
+            <a href="#home"><li class="am">HOME</li></a>
+            <a href="#about-me"><li class="am">ABOUT ME</li></a>
+            <a href="#projects"><li class="am">PROJECTS</li></a>
+            <a href="#testimonals"><li class="am">TESTIMONIALS</li></a>
+            <a href="#contact"><li class="am">CONTACT</li></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </ul>
+        </div>
+
+
+        <div>
+          <!-- <h1 class="michael active">Michael</h1> -->
+          <!-- <a href="#home" class="active michael">MICHAEL</a> -->
+        </div>
